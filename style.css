@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color:#0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.nav-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.add-first{
+    padding-left: 13px;
+    font-size: 12px;
+}
+.add-icon{
+    display: flex;
+}
+.nav-address{
+    padding-left:15px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.search{
+    display: flex;
+    height: 40px;
+    width: 900px;
+    margin-left: 20px;
+    border-radius: 5px;
+    align-items: center;
+    box-sizing: border-box;
+    border: none;
+    overflow: hidden;
+}
+
+.search:hover{
+    border: 3px solid orange;
+    border-radius:7px;
+}
+
+.s1{
+    color:black;
+    background-color: rgb(231, 227, 222);
+    border-radius: 5px 0px 0px 5px;
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    border: none;
+}
+
+.s2{
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.s3{
+    background-color: rgb(231, 167, 6);
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 100%;
+    color: black;
+    font-size: 20px;
+}
+
+.up{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cart{
+    font-size: 30px;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size:.9rem;
+}
+
+/* hero section */
+
+.hero-section{
+    background-image: url("https://m.media-amazon.com/images/I/619geyiQI5L._SX3000_.jpg");
+    height:400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .85rem;
+    bottom: 25px;
+    position: relative;
+    width: 97%;
+}
+
+.hero-msg a{
+    color:blue;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(225, 185, 243);
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+}
+
+.box-content{
+    padding: 13px;
+}
+img{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+button{
+    height: 60px;
+    background-color:#344558;
+    width: 100%;
+    font-size: 17px;
+    color: white;
+}
+
+.foot-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 40px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 17px;
+}
+
+ul p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+
+hr{
+    color: white;
+    margin-bottom: 20px;
+    border:none;
+    border-top: 2px solid white;
+}
+   /*
+.inn{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.inn2 p{
+    font-weight: bold;
+}
+
+.innl{
+    display: flex;
+    column-gap: 60px;
+    margin-left: 290px;
+} */
+
+.inn {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.innl {
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+    max-width: 1250px;
+    margin: auto;
+    padding: 15px 0 40px;
+}
+
+.inn2 {
+    width: 120px;
+}
+
+.inn2 p {
+    color: white;
+    font-size: 14px;
+    margin: 0 0;
+}
+
+.inn2 a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.inn2 a:hover {
+    text-decoration: underline;
+}
+
+.innl{
+    margin-left:24%;
+}
+.innll{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
